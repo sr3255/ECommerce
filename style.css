@@ -1,4 +1,5 @@
 
+   
     .nav
     {
         background-color: white;
@@ -36,7 +37,7 @@
         color:darkcyan;
         transition:.5s;
     }
-   .main{
+    .main{
         padding-top: 5%;  
         background-image:linear-gradient(to bottom right,#8a0863,darkblue);
         margin:5px;
@@ -51,7 +52,7 @@
         text-align: center;  
         padding-bottom: 2%;
     } 
-   .main .main_content .main_content1{
+    .main .main_content .main_content1{
         padding-top:5%;
         text-align: center;
         width:50%;
