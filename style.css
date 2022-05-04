@@ -1,5 +1,5 @@
 
-   
+
     .nav
     {
         background-color: white;
@@ -244,6 +244,9 @@
         background-color: rgb(5, 112, 112);
         border-bottom:4px solid darksalmon;
         font-weight:bolder;
+    }
+    .product h2{
+        padding-top: 10%;
     }
     .product_content{
         padding-bottom:10%;
@@ -584,63 +587,49 @@
         padding:20px;
     }
     .login{
-    padding:150px;
-    text-align: center;
-    padding-bottom: 2%;
-    
+        padding-top: 13%;
+        text-align: center;
+        font-family: Georgia, serif;
     }
     .login h2{
-        font-size: 25px;
-        padding: 20px;
-        font-family: Georgia, serif; 
         color:#8a0863;
-        padding-left:60px;
+        font-size: 25px;
     }
-    .login .login_container{
-        margin-left: 5%;
+    .login .login_container form{
+        padding-top:3%;
+        padding-bottom: 2%;
+        border :1px solid #8a0863;
+        margin-left: 15%;
+        margin-right: 15%;
     }
-    .login .login_container form {
-        width:250px;
-        height:200px;
-        padding:50px;
-        text-align: center;
-        border:2px solid #8a0863;
-        margin-left: 28%;
-        margin-right: 20%;
-    }
-
     .login .login_container form input{
-        outline:none;
-        font-size: 15px;
-    margin-bottom: 30px;
-    font-family: Georgia, serif; 
-    border:none;
-    border-bottom: 1px solid darkcyan;
-    width:55%;
+       border: none;
+       outline:none;
+       margin-bottom: 20px;
+       border-bottom: 1px solid darkcyan;
+       font-size: 15px;     
     }
     .login .login_container form button{
-        padding:4px;
-        margin-bottom:10px;
-        font-family: Georgia, serif;
-        margin-bottom: 30px;
-        width:55%;
+        margin-bottom: 20px;
         border:2px solid  darkcyan;
         background-color:#8a0863;
         color:darksalmon;
-        font-family: Georgia, serif;
         padding:5px 5px;
         font-size:15px;
         text-decoration:none;
         transition:.2s;
         border-radius: 20px;
+        font-family: georgia,serif;
+        padding: 5px 5px;
+        width:25%;
     }
     .login .login_container form button:hover{
-    border:none;
-        color:#8a0863;
-        background-color: rgb(5, 112, 112);
-        border-bottom:4px solid darksalmon;
-        font-weight:bolder;
-        transition:.2s;
+            border:none;
+            color:#8a0863;
+            background-color: rgb(5, 112, 112);
+            border-bottom:4px solid darksalmon;
+            font-weight:bolder;
+            transition:.2s;
     }
     .blog{
         padding:70px;
@@ -700,54 +689,41 @@
         font-family: Georgia, serif;
     }
     .signup{
-        padding:15%;
+        padding-top: 13%;
         text-align: center;
-    padding-bottom: 3%;
-    
+        font-family: Georgia, serif;
     }
     .signup h2{
-        font-size: 25px;
-        padding: 20px;
-        font-family: Georgia, serif; 
         color:#8a0863;
-    }
-    .signup .signup_container{
-        width:450px;
-        height:650px;
-        margin-left: 15%;
+        font-size: 25px;
     }
     .signup .signup_container form{
-        text-align: center;
-        padding:50px;
-        text-align: center;
-        border:2px solid purple;
-        width:450px;
-        height:350px;
-        margin-left: 20%;
+        padding-top:3%;
+        padding-bottom: 2%;
+        border :1px solid #8a0863;
+        margin-left: 15%;
+        margin-right: 15%;
     }
     .signup .signup_container form input{
-        outline:none;
-        font-size: 15px;
-        margin-bottom: 30px;
-        font-family: Georgia, serif; 
-        border:none;
-        border-bottom: 1px solid darkcyan;
-        width:55%;
+       border: none;
+       outline:none;
+       margin-bottom: 20px;
+       border-bottom: 1px solid darkcyan;
+       font-size: 15px;     
     }
     .signup .signup_container form button{
-        padding:4px;
-        font-family: Georgia, serif;
-        margin-bottom: 40px;
-        width:55%;
+        margin-bottom: 20px;
         border:2px solid  darkcyan;
         background-color:#8a0863;
         color:darksalmon;
-        font-family: Georgia, serif;
         padding:5px 5px;
         font-size:15px;
         text-decoration:none;
         transition:.2s;
         border-radius: 20px;
+        font-family: georgia,serif;
+        padding: 5px 5px;
+        width:25%;
     }
     .signup .signup_container form button:hover{
             border:none;
