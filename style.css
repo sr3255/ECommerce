@@ -245,15 +245,13 @@
         font-weight:bolder;
     }
     .product h2{
-        padding-top: 10%;
+        padding-top: 5%;
     }
     .product_content{
-        padding-bottom:10%;
+        padding-bottom:8%;
         
     }
-    .product_content .prd{
-        margin-left: 15%;
-    }
+    
     .product_content .prd .prd2{
         margin-left: 5%;
     }
